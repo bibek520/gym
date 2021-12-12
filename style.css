@@ -1,0 +1,112 @@
+*{box-sizing: border-box;
+  font-family: 'Montserrat',sans-serif ;}
+
+
+body{ margin: 0;
+      padding: 0;
+    background: rgb(2, 145, 145);}
+
+.navbar {display: flex;
+         justify-content: space-between;
+        align-items: center;
+        margin-top: 2rem;}      
+ .brandtitle { font-size: 1rem;
+               margin:1rem;
+              color: white;
+            margin-left: 6rem;} 
+ button { align-items: center;
+           margin-left: 37%;
+           padding: 25px 40px 25px 40px;
+           margin-top: 5%;
+           color: white;
+           font-size: 20px;
+           font-weight: bold;
+           border-radius: .4px;
+           transition: 0s;
+           background: linear-gradient(57deg, #00c6a7, #1e4d92);}
+button:hover { background: linear-gradient(57deg, #1e4d92, #00c6a7);} 
+           ul {margin-right: 150px;}
+ul li {display: inline-block;
+      list-style: none;
+      font-size: 1em;
+      font-weight: bold;
+      text-decoration: none;
+       padding: 10px;
+       
+      color: white;}
+ .imgres {border-radius: 40px;
+           width: 90%;
+          margin: 20px;
+      }    
+.list {width: 30px;
+       margin-right: 5%;
+       margin-bottom: -7px;
+       display: none;
+       }    
+ .head2 {font-size: 50px;
+          padding-left: 40px;
+         color: white;
+         margin-top: 70px;}  
+ #para { font-size: 20px;
+         color: white;
+         padding-left: 40px;}   
+
+
+.row::after {
+              content: "";
+              clear: both;
+              display: table;
+}      
+.footer {
+  background-color: #054f81;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+[class*="col-"] {
+               float: left;
+               padding: 15px;
+}
+
+[class*="col-"] {width: 100%;
+                 }
+
+
+@media only screen and (min-width:768px){
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+@media only screen and (max-width:600px){
+  .nav-links li {display: none;}
+  .list {display: block;
+         width: 40px;   
+         float: right;
+         margin-right: -110px;
+         margin-top: -15px;
+        }
+
+.brandtitle { font-size: 23px;
+              margin-left: 25px;}
+.row {margin-top: -5px;
+     }
+    
+.head2 {margin-top: -15px;
+        font-size: 30px;}
+ button{align-items: center;
+        
+        }       
+.imgres {width: 90%;
+         margin: 30px;
+        border-radius: 40px;}
+}        
